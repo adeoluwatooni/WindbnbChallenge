@@ -1,0 +1,10 @@
+.rentals{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rentals img{
+  width: 395px;
+    height: 269px;
+    flex-shrink: 0;
+}
