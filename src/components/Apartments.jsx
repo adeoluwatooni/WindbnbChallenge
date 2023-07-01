@@ -7,7 +7,7 @@ const Apartments = () => {
 
   return (
     <div>
-      <h1 className="text-center">Apartment List</h1>
+      <h1>Apartment List</h1>
       <div className="rentals">
         {data.map((rental, index) => {
           return (
@@ -16,18 +16,18 @@ const Apartments = () => {
                 <img src={rental.photo} alt="apartment" />
               </div>
               <div className='rentalDetails'>
-                <div>
+                <div className='rentalHostType'>
                   <div>
-                  {rental.superHost && <div className='superHost'>SUPER HOST</div> }
+                    {rental.superHost && <div className='superHost'>SUPER HOST</div> }
+                  </div>
+                  <div>
+                    {rental.type}
+                  </div>
                 </div>
                 <div>
-                  {rental.type}
-                </div>
-                <div>
-                  <img src={star} alt="ratings" style={{width:'20px', height:'20px'}} />
-                  {rental.rating}
-                </div>
-                </div>
+                    <img src={star} alt="ratings" style={{width:'18px', height:'18px'}} />
+                    {rental.rating}
+                  </div>
               </div>
               <h4>{rental.title}</h4>
             </div>

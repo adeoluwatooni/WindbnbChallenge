@@ -20,4 +20,10 @@
 
 .rentalDetails{
   display: flex;
+  justify-content: space-between;
 }
+
+.rentalHostType{
+  display: flex;
+}
+
