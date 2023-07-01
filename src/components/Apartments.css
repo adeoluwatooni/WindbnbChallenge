@@ -1,11 +1,17 @@
 .rentals{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 385px;
+}
+
+.rentalContainer{
+  width: 385px;
 }
 
 .rentalImageDiv{
   text-align: center;
+  width: 385px;
 }
 
 .rentals img{
