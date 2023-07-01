@@ -3,6 +3,8 @@
 }
 
 body{
-  padding: 50px 96px;
+  padding: none;
+  width: 1250px;
+  margin: 50px auto;
   font-family: Montserrat
 }

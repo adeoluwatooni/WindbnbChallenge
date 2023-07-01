@@ -11,7 +11,7 @@ const Apartments = () => {
         {data.map((rental, index) => {
           return (
             <div key={index} className="rentalContainer">
-              <div>
+              <div className='rentalImageDiv'>
                 <img src={rental.photo} alt="apartment" />
               </div>
               <div>

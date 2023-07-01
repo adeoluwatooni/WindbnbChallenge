@@ -1,10 +1,18 @@
 .rentals{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+}
+
+.rentalImageDiv{
+  text-align: center;
 }
 
 .rentals img{
-  width: 395px;
-    height: 269px;
-    flex-shrink: 0;
+  width: 385px;
+  height: 269px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
 }
