@@ -1,5 +1,6 @@
 
 import data from '../assets/data.json';
+import star from '../assets/star-24.png'
 import './Apartments.css'
 
 const Apartments = () => {
@@ -14,14 +15,15 @@ const Apartments = () => {
               <div className='rentalImageDiv'>
                 <img src={rental.photo} alt="apartment" />
               </div>
-              <div>
+              <div className='rentalDetails'>
                 <div>
-                  {rental.superHost && <div>SUPER HOST</div> }
+                  {rental.superHost && <div className='superHost'>SUPER HOST</div> }
                 </div>
                 <div>
                   {rental.type}
                 </div>
                 <div>
+                  <img src={star} alt="ratings" style={{width:'20px', height:'20px'}} />
                   {rental.rating}
                 </div>
               </div>

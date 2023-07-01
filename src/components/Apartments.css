@@ -1,24 +1,28 @@
 .rentals{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between;
-  width: 385px;
+  /* justify-content: space-between; */
+  grid-column-gap: 33px;
 }
 
-.rentalContainer{
+/* .rentalContainer{
   width: 385px;
-}
+} */
 
-.rentalImageDiv{
+/* .rentalImageDiv{
   text-align: center;
   width: 385px;
-}
+} */
 
 .rentals img{
-  width: 385px;
+  width: 395px;
   height: 269px;
   flex-shrink: 0;
   object-fit: cover;
   object-position: center;
   border-radius: 25px;
+}
+
+.superHost{
+  border: 0.5px solid grey;
 }
