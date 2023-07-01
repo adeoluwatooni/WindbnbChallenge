@@ -5,15 +5,6 @@
   grid-column-gap: 33px;
 }
 
-/* .rentalContainer{
-  width: 385px;
-} */
-
-/* .rentalImageDiv{
-  text-align: center;
-  width: 385px;
-} */
-
 .rentals img{
   width: 395px;
   height: 269px;
@@ -25,4 +16,8 @@
 
 .superHost{
   border: 0.5px solid grey;
+}
+
+.rentalDetails{
+  display: flex;
 }

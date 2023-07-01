@@ -11,12 +11,13 @@ const Apartments = () => {
       <div className="rentals">
         {data.map((rental, index) => {
           return (
-            <div key={index} className="rentalContainer">
-              <div className='rentalImageDiv'>
+            <div key={index} >
+              <div >
                 <img src={rental.photo} alt="apartment" />
               </div>
               <div className='rentalDetails'>
                 <div>
+                  <div>
                   {rental.superHost && <div className='superHost'>SUPER HOST</div> }
                 </div>
                 <div>
@@ -25,6 +26,7 @@ const Apartments = () => {
                 <div>
                   <img src={star} alt="ratings" style={{width:'20px', height:'20px'}} />
                   {rental.rating}
+                </div>
                 </div>
               </div>
               <h4>{rental.title}</h4>
