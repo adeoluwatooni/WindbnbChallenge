@@ -24,10 +24,10 @@ const Apartments = () => {
                     {rental.type}
                   </div>
                 </div>
-                <div>
-                    <img src={star} alt="ratings" style={{width:'18px', height:'18px'}} />
-                    {rental.rating}
-                  </div>
+                <div className='ratingsDiv'>
+                  <img src={star} alt="ratings" style={{width:'18px', height:'18px'}} />
+                  {rental.rating}
+                </div>
               </div>
               <h4>{rental.title}</h4>
             </div>
