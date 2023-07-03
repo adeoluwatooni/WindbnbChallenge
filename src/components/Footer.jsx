@@ -2,7 +2,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footerDiv'>
       <hr />
       <h6>
         created by Adeoluwa Idowu - devChallenges.io

@@ -20,7 +20,7 @@ const Apartments = () => {
                   <div>
                     {rental.superHost && <div className='superHost'>SUPER HOST</div> }
                   </div>
-                  <div>
+                  <div className='rentalType' >
                     {rental.type}
                   </div>
                 </div>
@@ -29,7 +29,7 @@ const Apartments = () => {
                   {rental.rating}
                 </div>
               </div>
-              <h4>{rental.title}</h4>
+              <h4 className='rentalTitle'>{rental.title}</h4>
             </div>
           )
         })}

@@ -22,6 +22,7 @@
 .rentalHostType {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .superHost{
@@ -33,7 +34,6 @@
   align-items: center;
   justify-content: center;
 
-
   color: #4F4F4F;
   font-size: 12px;
   font-family: Montserrat;
@@ -43,8 +43,27 @@
   text-transform: uppercase;
 }
 
+.rentalType{
+  color: var(--gray-3, #828282);
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .ratingsDiv{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+}
+
+.rentalTitle{
+  color: #333333;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
